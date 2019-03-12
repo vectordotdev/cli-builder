@@ -40,14 +40,14 @@ specifications.
 To build the new image, use the following command from the directory:
 
 ```bash
-docker build -t TAG ./
+docker build -t timberio/cli-builder:1.0.0 ./
 ```
 
 replacing TAG with the appropriate tag. Once the image has successfully built,
 you can push the image to the repository using the following command:
 
 ```bash
-docker push TAG
+docker push timberio/cli-builder:1.0.0
 ```
 
 replacing TAG with the appropriate tag. Note that in order to do this you must
