@@ -20,7 +20,7 @@ RUN pip install awscli
 
 RUN curl -fsSL https://github.com/timberio/grease/releases/download/v1.0.1/grease-1.0.1-linux-amd64.tar.gz -o /tmp/grease.tar.gz \
   && tar -xzf /tmp/grease.tar.gz -C /tmp \
-  && mv /tmp/grease/bin/grease ls .usr  b \
+  && mv /tmp/grease/bin/grease /usr/bin/grease \
   && chown root:root /usr/bin/grease \
   && rm /tmp/grease.tar.gz \
   && rm -r /tmp/grease

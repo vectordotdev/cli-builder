@@ -7,13 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.0.2] - 2019-03-12
+## [1.0.1] - 2019-03-12
 
 ### Changed
 
   - Use `alpine3.9`, not just `alpine`
 
-## [0.0.1] - 2019-03-12
+## [1.0.0] - 2019-03-12
 
 - Initial release
 
